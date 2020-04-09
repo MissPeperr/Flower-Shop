@@ -1,0 +1,195 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "commonName": "Golden Poppy",
+            "color": "Orange"
+        },
+        {
+            "id": 2,
+            "commonName": "Calla Lily",
+            "color": "Burgundy"
+        },
+        {
+            "id": 3,
+            "commonName": "Baby's Breath",
+            "color": "White"
+        },
+        {
+            "id": 4,
+            "commonName": "Tulip",
+            "color": "Red"
+        },
+        {
+            "id": 5,
+            "commonName": "Tulip",
+            "color": "Orange"
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Mama Flower's",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "342 Flower Drive",
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "name": "Papa Flower's",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "342 Flower Drive",
+            "distributorId": 1
+        },
+        {
+            "id": 3,
+            "name": "Bro Flo's",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "342 Flower Drive",
+            "distributorId": 3
+        },
+        {
+            "id": 4,
+            "name": "Sister Flower's",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "342 Flower Drive",
+            "distributorId": 2
+        },
+        {
+            "id": 5,
+            "name": "My Flower's",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "342 Flower Drive",
+            "distributorId": 3
+        },
+        {
+            "id": 6,
+            "name": "Granny Flower's",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "342 Flower Drive",
+            "distributorId": 2
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Distribute Me",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "895 Power Drive"
+        },
+        {
+            "id": 2,
+            "name": "No, Distribute Me!",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "895 Power Drive"
+        },
+        {
+            "id": 3,
+            "name": "No, Distribute Them!",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "895 Power Drive"
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Baby's First Nursery"
+        },
+        {
+            "id": 2,
+            "name": "Baby's Second Nursery"
+        },
+        {
+            "id": 3,
+            "name": "Baby's Third Nursery"
+        }
+    ],
+    "nurseryDistributors": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "distributorId": 2
+        },
+        {
+            "id": 3,
+            "nurseryId": 1,
+            "distributorId": 3
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "distributorId": 1
+        },
+        {
+            "id": 5,
+            "nurseryId": 2,
+            "distributorId": 3
+        },
+        {
+            "id": 6,
+            "nurseryId": 3,
+            "distributorId": 2
+        },
+        {
+            "id": 7,
+            "nurseryId": 3,
+            "distributorId": 1
+        }
+    ],
+    "nurseryFlowers": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "flowerId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "flowerId": 2
+        },
+        {
+            "id": 3,
+            "nurseryId": 1,
+            "flowerId": 3
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "flowerId": 4
+        },
+        {
+            "id": 5,
+            "nurseryId": 2,
+            "flowerId": 5
+        },
+        {
+            "id": 6,
+            "nurseryId": 3,
+            "flowerId": 6
+        },
+        {
+            "id": 7,
+            "nurseryId": 3,
+            "flowerId": 1
+        },
+        {
+            "id": 8,
+            "nurseryId": 2,
+            "flowerId": 2
+        }
+    ]
+}

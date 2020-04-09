@@ -1,0 +1,54 @@
+main {
+    border: 1px dashed blueviolet;
+}
+
+.retailer {
+    margin: .5em;
+    border: 1px dashed lightgreen;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+}
+.retailer h2 {
+    color: rgb(62, 128, 128);
+    text-align: center;
+}
+.retailer_address {
+    text-align: center;
+}
+
+.nursery_list {
+    margin: .5em;
+    border: 1px dashed magenta;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.nursery {
+    padding: .2em;
+    margin: .25em;
+    border: 1px dashed lightcoral;
+}
+
+.distributor {
+    margin: .5em;
+    border: 1px dashed red;
+}
+
+.flower_list {
+    margin: .5em;
+    border: 1px dashed lightseagreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flower {
+    padding: .2em;
+    margin: .25em;
+    border: 1px dashed orange;
+    font-size: x-small;
+}
+.flower h3 {
+    margin: 0;
+    font-weight: 500;
+}
